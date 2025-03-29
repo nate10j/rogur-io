@@ -84,6 +84,10 @@ All types listed here:
 
 ## Updating
 To update your forked repository to sync with the upstream project, follow these steps
+If you haven't set upstream remote, run
+```bash
+git remote add upstream https://github.com/nate10j/rush-hour-web.git
+```
 
 ```bash
 git pull --ff upstream <branch>
