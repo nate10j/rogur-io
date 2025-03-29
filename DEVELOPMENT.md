@@ -90,8 +90,15 @@ git remote add upstream https://github.com/nate10j/rush-hour-web.git
 ```
 
 ```bash
-git pull --ff upstream <branch>
+git fetch upstream
+git merge upstream/main
 ```
+
+## Pull request
+```bash
+git push origin <your branch>
+```
+Then, you can submit your pull request on github
 
 ## Conclusion
 Thank you for reading
