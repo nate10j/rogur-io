@@ -5,7 +5,8 @@
 - node js
 
 ## Getting started
-To first get started, fork this repository and clone it onto your computer
+To first get started, fork this repository and clone it onto your computer.
+If you are a collaborator, you don't have to fork this repository, and you can just simply clone it.
 
 ```bash
 git clone https://github.com/<username>/rush-hour-web.git
@@ -99,6 +100,11 @@ git merge upstream/main
 git push origin <your branch>
 ```
 Then, you can submit your pull request on github
+
+## If you are a collaborator:
+```bash
+git push upstream <your branch>
+```
 
 ## Conclusion
 Thank you for reading
