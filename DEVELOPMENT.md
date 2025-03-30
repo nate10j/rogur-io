@@ -101,7 +101,7 @@ git push origin <your branch>
 ```
 Then, you can submit your pull request on github
 
-## If you are a collaborator:
+## If you are a collaborator, push your branch directly to the upstream:
 ```bash
 git push upstream <your branch>
 ```
