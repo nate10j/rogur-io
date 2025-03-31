@@ -6,12 +6,12 @@
 
 ## Getting started
 To first get started, fork this repository and clone it onto your computer.
-If you are a collaborator, you don't have to fork this repository, and you can just simply clone it.
+If you are a [collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository), you don't have to fork this repository, and you can just simply clone it.
 
 ```bash
 git clone https://github.com/<username>/rush-hour-web.git
 ```
-remember to replace ``<username>`` with your own username.
+remember to replace ``<username>`` with your own username, if you are a [collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository), replace ``<username>`` with ``nate10j``.
 
 ---
 
