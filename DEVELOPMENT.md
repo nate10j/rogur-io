@@ -11,7 +11,8 @@ If you are a [collaborator](https://docs.github.com/en/account-and-profile/setti
 ```bash
 git clone https://github.com/<username>/rush-hour-web.git
 ```
-remember to replace ``<username>`` with your own username, if you are a [collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository), replace ``<username>`` with ``nate10j``.
+remember to replace ``<username>`` with your own username.
+if you are a [collaborator](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository), replace ``<username>`` with ``nate10j``.
 
 ---
 
