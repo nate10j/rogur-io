@@ -1,17 +1,33 @@
-<h1>Rush Hour</h1>
+<script>
+let canvas;
+</script>
+
+<div class="container">
+	<div class="content">
+		<h1>Rush Hour</h1>
+
+		<canvas width="600px" height="600px" bind:this={canvas}>
+		</canvas>
+	</div>
+</div>
+
 <style>
-@media (max-width: 500px) {
-    body {
-      background-color: #ffffff
-    }
-  }
-  @media (max-width: 700px) {
-    body {
-      background-color: #ffffff
-    }
-  }
-  
-  .red {
-    color: red;
-  }
-  </style>
+h1 {
+	font-size: 3rem;
+	padding: 1rem;
+}
+
+canvas {
+	border: 1px solid;
+}
+
+.container {
+	justify-content: center;
+	display: flex;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+</style>
