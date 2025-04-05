@@ -1,6 +1,7 @@
 <script>
 import { onMount } from "svelte";
 import { init, render } from "$lib/render";
+import { start, stop } from "$lib/player";
 
 let canvas;
 
@@ -8,14 +9,13 @@ onMount(() => {
 	canvas.width = window.innerWidth;
 	canvas.height = window.innerHeight;
 
-	init(canvas);
-
 	window.addEventListener('resize', () => {
 		canvas.width = window.innerWidth;
 		canvas.height = window.innerHeight;
 	});
 
-	render();
+	init(canvas);
+	start()
 })
 
 </script>

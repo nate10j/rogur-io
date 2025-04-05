@@ -1,16 +1,17 @@
 import { render } from "$lib/render";
 
-let isGameRunning;
+let isGameRunning = false;
 
 export function start() {
 	isGameRunning = true;
+	requestAnimationFrame(loop);
 }
 
 export function stop() {
 	isGameRunning = false;
 }
 
-export function loop() {
+function loop() {
 	if (!isGameRunning) return;
 
 	render();
