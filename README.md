@@ -1,5 +1,5 @@
-# Rush Hour Web 🚗
-This is a web game recreating the rush hour puzzle game
+# Rogur
+This is a web rogue-like io game.
 
 ## Contributing
 Contributors, please follow the [CONTRIBUTING.md](CONTRIBUTING.md) guide

@@ -18,7 +18,8 @@ if you are a [collaborator](https://docs.github.com/en/account-and-profile/setti
 
 Once you've cloned your repository, run
 ```bash
-cd rush-hour-web
+cd rogur-io
+cd client # or server
 npm install
 ```
 To start your development server, run

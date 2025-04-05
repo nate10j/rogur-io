@@ -1,4 +1,4 @@
-# Contributing to rush hour web
+# Contributing to rogur io
 
 ## License
 This is a side project, it is unlikely that we will be accepting pull requests from external contributers.
